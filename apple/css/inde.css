@@ -1,0 +1,435 @@
+/*
+* @Author: DELL
+* @Date:   2017-09-11 09:38:11
+* @Last Modified by:   DELL
+* @Last Modified time: 2017-09-13 08:58:01
+*/
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:18px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;/* 是图片以文字形式完美显示 */
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 412619 */
+  src: url('http://at.alicdn.com/t/font_412619_ar0jmi40k9pmn29.eot');
+  src: url('http://at.alicdn.com/t/font_412619_ar0jmi40k9pmn29.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_412619_ar0jmi40k9pmn29.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_412619_ar0jmi40k9pmn29.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_412619_ar0jmi40k9pmn29.svg#iconfont') format('svg');
+}
+main i{
+	color: #fff;
+	line-height: 44px;
+}
+header{
+	width: 100%;
+	height: 40px;
+	background-color: #444;
+}
+main{
+	max-width: 1024px;/* （达到最大值：小于） */
+	height: 100%;
+	/* background-color: skyblue; */
+	margin: 0 auto;
+}
+.head-wenzi{
+	float: right;
+	line-height: 40px;
+	font-size: 12px;
+	color: #b0b0b0;
+}
+nav{
+	width: 100%;
+	height: 44px;
+	background-color: #000;
+}
+nav main{
+/* 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; */
+	text-align: justify;/* 文本两端对齐 */
+}
+nav main:after{
+	content: "";
+	display: inline-block;/* 必须设置行内块元素 */
+	width: 100%;
+	font-size: 0;
+	line-height: 0;
+}
+nav a{
+	font-size: 14px;
+	line-height: 44px;
+	color: #fff;
+	display: inline-block;
+}
+#banner{
+	width: 100%;
+	height: 500px;
+	/* background-color: orangered; */
+	position: relative;
+}
+.banner-img{
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/banner1.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+.banner-wenzi{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 217px;
+	/* background-color: yellowgreen; */
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	align-content: center;	
+	color: #fff;
+}
+.banner-wenzi h1{
+	width: 100%;
+	font-size: 28px;
+}
+.banner-wenzi h2{
+	width: 100%;
+	font-size: 40px;
+}
+#tupian{
+	width: 100%;
+/* 	height: 500px; */
+	/* background-color: yellow; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.tupian-img{
+	text-align: center;
+}
+.tupian-img h3{
+	padding-top: 30px;
+	color: #111;
+    font-size: 19px;
+}
+.xiaowenz{
+	padding-top: 30px;
+	color: #111;
+    font-size: 19px;
+}
+.xiaowenz1{
+	padding-top: 0px;
+}
+.tupian-img h4{
+	color: #333;
+    font-size: 17px;
+}
+.tupian-img h5{
+	color: #333;
+    font-size: 17px;
+}
+.tupian-img h5{
+	color: #111;
+    font-size: 19px;
+}
+.img2 h6{
+	color: #111;
+    font-size: 19px;
+}
+.img2 h4{
+	font-size: 12px;
+}
+.img2 h5{
+	font-size: 12px;
+}
+.img4 h3{
+	color: #fff;
+}
+.img4 h4{
+	color: #fff;
+}
+.img1{
+	width: 25%;
+	height: 268px;
+	background-image: url('../img/pingguo1.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+.img2{
+	width: 25%;
+	height: 268px;
+	background-image: url('../img/mac1.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+.img3{
+	width: 25%;
+	height: 268px;
+	background-image: url('../img/bijiben1.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+.img4{
+	width: 25%;
+	height: 268px;
+	background-image: url('../img/tupian1.png');
+	background-size: cover;
+	background-position: top center;
+}
+footer{
+	width: 100%;
+	height: 481px;
+	background-color: #f2f2f2;
+}
+.footer{
+	width: 1024px;
+	height: 441px;
+	padding: 0 22px;
+	margin: 0 auto;
+}
+.jw-head{
+	width: 100%;
+/* 	height: 200px; */
+	border-bottom: 1px solid #d6d6d6;
+    color: #888;
+    padding: 17px 0 11px;
+	font-size: 11px;
+}
+.hwz{
+	padding-bottom: 4px
+}
+.jw-zhong{
+	padding-top: 40px;
+	font-size: 11px;
+/* 	background-color: skyblue; */
+}
+.jw-wzbox{
+	width: 20%;
+	/* height: 100px; */
+	float: left;
+}
+li{
+	font-size: 11px;
+	color: #000;
+	margin-bottom: 6px;
+}
+.xbox{
+	padding-top: 24px;
+}
+.jw-wzbox a{
+	color: #555;
+}
+.jw-dibu{
+	padding-top: 34px;
+	/* background-color: yellow; */
+	float: left;
+}
+.je-dbs{
+	margin-bottom: 7px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #d6d6d6;
+    /* background-color: skyblue; */
+    float: left;
+    font-size: 11px;
+    color: #999;
+}
+.dbswz{
+	float: left;
+}
+.je-dbx{
+	color: #999;
+	float: left;
+	font-size: 11px;
+}
+.dbxwz{
+	margin-right: 30px;
+    float: left;
+    margin-top: 3px;
+}
+.je-dbx a{
+	border-right: 1px solid #d6d6d6;
+    margin-right: 10px;
+    padding-right: 12px;
+    margin-top: 3px;
+}
+.je-dbx a:nth-child(7){
+	border-right: 0;
+}
+.jw-footer{
+    margin-bottom: 20px;
+    font-size: 11px;
+    color: #999;
+    float: left;	
+}
+footer1{
+	width: 100%;
+	background-color: #f2f2f2;
+	padding-bottom: 10px;
+	float: left;
+}
+.footer2{
+	padding: 0 16px;
+}
+.jwwenzibox{
+	padding-top: 10px;
+    padding-bottom: 10px;
+    background: #f2f2f2;
+    font-size: 12px;
+    border-bottom: 1px solid #d6d6d6;
+}
+.dbxwz1{
+    margin-top: 3px;
+}
+.je-dbx1{
+	color: #999;
+	font-size: 11px;
+}
+/* (屏幕大小)  */ 
+@media screen and (max-width: 1024px){
+	main{
+		padding-right: 24px;
+	}
+	nav main{
+		padding-left: 24px;
+	}
+	#banner{
+		height: 460px;
+}
+.banner-img{
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/banner2.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+.img1{
+	width: 50%;
+	height: 268px;
+	background-image: url('../img/pingguo2.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+.img2{
+	width: 50%;
+	height: 268px;
+	background-image: url('../img/mac2.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+.img3{
+	width: 50%;
+	height: 268px;
+	background-image: url('../img/bijiben2.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+.img4{
+	width: 50%;
+	height: 268px;
+	background-image: url('../img/tupian2.png');
+	background-size: cover;
+	background-position: top center;
+}
+.banner-wenzi{
+		height: 211px;
+	}
+	.footer{
+	width: auto;
+	height: 441px;
+	padding: 0 22px;
+	margin: 0 auto;
+	}
+}
+/* 屏幕大于767 */
+@media screen and (min-width: 767px){
+	.nav-big{
+		display: block;
+	}
+	.nav-small{
+		display: none;
+	}
+
+	footer{
+		display: block;
+	}
+	footer1{
+		display: none;
+	}
+	.img2 h3{
+		display: block;
+	}
+	.img2 h6{
+		display: block;
+	}
+	.xiaowenz{
+		display: none;
+	}
+}
+/* 屏幕小于767 */
+@media screen and (max-width: 767px){
+	.nav-big{
+		display: none;
+	}
+	.nav-small{
+		display: block;
+	}
+	footer{
+		display: none;
+	}
+	footer1{
+		display: block;
+	}
+	.img2 h3{
+		display: none;
+	}
+	.img2 h6{
+		display: none;
+	}
+	.xiaowenz{
+		display: block;
+	}
+#banner{
+		height: 380px;
+}
+.banner-img{
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/banner3.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+.img1{
+	width: 100%;
+	height: 268px;
+	background-image: url('../img/pingguo3.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+.img2{
+	width: 100%;
+	height: 268px;
+	background-image: url('../img/mac3.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+.img3{
+	width: 100%;
+	height: 268px;
+	background-image: url('../img/bijiben3.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+.img4{
+	width: 100%;
+	height: 268px;
+	background-image: url('../img/tupian2.png');
+	background-size: cover;
+	background-position: top center;
+}
+	.banner-wenzi{
+		height: 201px;
+}
+}
